@@ -100,5 +100,5 @@ Visit: `http://localhost/voltmarket/`
 - student name - Sanyam shah
 - student id - 249678150
 - Project: VoltMarket — Electronics Marketplace
-- Course:internet tools 
+- Course:internet tools  
 - Stack: HTML5, CSS3, JavaScript, PHP 8, MySQL
