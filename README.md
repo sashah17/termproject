@@ -30,37 +30,37 @@ VoltMarket is a second-hand electronics marketplace where users can buy and sell
 ## Features
 
 ### User Features
-- ✅ Register, login, logout
-- ✅ Browse electronics with search, category, condition & price filters
-- ✅ Product detail with add-to-cart and reviews
-- ✅ Shopping cart with quantity update
-- ✅ Checkout with shipping info
-- ✅ Order history with status tracking
-- ✅ List items for sale
-- ✅ Edit and delete own listings
-- ✅ Star ratings & reviews (bonus)
+- Register, login, logout
+- Browse electronics with search, category, condition & price filters
+- Product detail with add-to-cart and reviews
+- Shopping cart with quantity update
+- Checkout with shipping info
+- Order history with status tracking
+- List items for sale
+- Edit and delete own listings
+- Star ratings & reviews (bonus)
 
 ### Admin Features
-- ✅ Dashboard with stats (products, users, orders, revenue)
-- ✅ Full product CRUD
-- ✅ Order status management
-- ✅ User role management
+- Dashboard with stats (products, users, orders, revenue)
+- Full product CRUD
+- Order status management
+- User role management
 
 ### Security
-- ✅ `password_hash()` bcrypt
-- ✅ PDO prepared statements (no SQL injection)
-- ✅ Client-side + server-side validation
-- ✅ Session fixation prevention
-- ✅ `htmlspecialchars()` on all output
+- `password_hash()` bcrypt
+- PDO prepared statements (no SQL injection)
+- Client-side + server-side validation
+- Session fixation prevention
+- `htmlspecialchars()` on all output
 
 ### Electronics Categories
-- 📱 Phones & Tablets
-- 💻 Laptops & PCs
-- 🎧 Audio
-- 🎮 Gaming
-- 📷 Cameras
-- ⌚ Wearables
-- 🔧 Components & Parts
+- Phones & Tablets
+- Laptops & PCs
+- Audio
+- Gaming
+- Cameras
+- Wearables
+- Components & Parts
 
 ---
 
@@ -97,6 +97,8 @@ Visit: `http://localhost/voltmarket/`
 ---
 
 ## Student Information
-- **Project:** VoltMarket — Electronics Marketplace
-- **Course:** Web IT Term Project
-- **Stack:** HTML5, CSS3, JavaScript, PHP 8, MySQL
+- student name - Sanyam shah
+- student id - 249678150
+- Project: VoltMarket — Electronics Marketplace
+- Course:internet tools 
+- Stack: HTML5, CSS3, JavaScript, PHP 8, MySQL
