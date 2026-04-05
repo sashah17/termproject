@@ -1,0 +1,20 @@
+/* VoltMarket - Additional overrides (main styles are inline in header.php) */
+/* This file is a backup/supplement — core dark theme is in <style> tag */
+
+/* Extra grid utilities not in Bootstrap */
+.vm-grid-cats { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px,1fr)); gap: 10px; }
+.vm-grid-products { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px,1fr)); gap: 16px; }
+.vm-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.vm-grid-sidebar { display: grid; grid-template-columns: 240px 1fr; gap: 24px; align-items: start; }
+.vm-grid-admin { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; }
+.vm-grid-3 { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; }
+
+@media(max-width:991px){
+  .vm-grid-2, .vm-grid-sidebar { grid-template-columns: 1fr; }
+  .vm-grid-admin, .vm-grid-3 { grid-template-columns: 1fr 1fr; }
+}
+@media(max-width:575px){
+  .vm-grid-cats { grid-template-columns: repeat(3,1fr); }
+  .vm-grid-admin, .vm-grid-3 { grid-template-columns: 1fr; }
+  .vm-grid-products { grid-template-columns: 1fr 1fr; }
+}
